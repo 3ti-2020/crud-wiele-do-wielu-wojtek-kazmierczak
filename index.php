@@ -8,12 +8,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="item a"></div>
+        <div class="item a">
+            <h1>CRUD</h1>
+        </div>
         <div class="item b">
             <div class="insert">
-                <input type="text" class="tekst" placeholder="Podaj " name="" id="">
-                <input type="text" class="tekst" placeholder="Podaj " name="" id="">
-                <input type="submit" value="Dodaj">
+                <form action="insert.php" method="post">
+                    <input type="text" class="tekst" placeholder="Podaj autora" name="name" id="">
+                    <input type="text" class="tekst" placeholder="Podaj tytuł" name="tytul" id="">
+                    <input type="submit" value="Dodaj">
+                </form>
             </div>
 
         </div>
