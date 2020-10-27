@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CRUD - wiele do wielu</title>
+    <title>Wojtek Kaźmierczak</title>
 </head>
 <body>
     <div class="container">
         <div class="item a">
-            <h1>CRUD</h1>
+            <h1>Wojtek Kaźmierczak</h1>
         </div>
         <div class="item b">
             <div class="insert">
