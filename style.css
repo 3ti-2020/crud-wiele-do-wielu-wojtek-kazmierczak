@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d d";
+}
+
+.a{
+    grid-area: a;
+    background-color: darkseagreen;
+}
+
+.b{
+    grid-area: b;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.c{
+    grid-area: c;
+    background-color: cornflowerblue;
+}
+
+.d{
+    grid-area: d;
+    background-color: springgreen;
+}
+
+.tekst{
+    height: 4%;
+    width: 75%;
+}
+
+.insert{
+    height: 50%;
+    width: 100%;
+}
+
+table{
+    border: 1px solid black;
+    background-color: white;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    padding: 3px;
+}
