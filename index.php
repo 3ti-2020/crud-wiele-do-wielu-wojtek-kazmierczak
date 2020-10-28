@@ -23,7 +23,7 @@
         </div>
         <div class="item c">
             <?php
-                $conn = new mysqli("127.0.0.1", "root", "", "bibl");
+                $conn = new mysqli("sql7.freemysqlhosting.net", "sql7373145", "neAKxXba6X", "sql7373145");
                 $sql = "SELECT * FROM lib_autor, lib_autor_tytul, lib_tytul WHERE 
                 lib_autor.id_autor = lib_autor_tytul.id_autor
                 AND lib_tytul.id_tytul = lib_autor_tytul.id_tytul";
