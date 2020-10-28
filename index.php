@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="item a">
-            <h1>Wojtek Kaźmierczak</h1>
+            <h1>Wojtek Kaźmierczak gr 2</h1>
         </div>
         <div class="item b">
             <div class="insert">
