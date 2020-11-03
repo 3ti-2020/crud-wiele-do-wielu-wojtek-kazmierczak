@@ -10,9 +10,9 @@
    
      $sql3 = "INSERT INTO lib_autor_tytul VALUES (NULL, $last_idlib_autor,$last_idlib_tytul)";
 
-     $result = mysqli_query($conn, $sql);
-     $result = mysqli_query($conn, $sql2);
-     $result = mysqli_query($conn, $sql3);
+     $result1 = mysqli_query($conn, $sql);
+     $result2 = mysqli_query($conn, $sql2);
+     $result3 = mysqli_query($conn, $sql3);
      header("Location: index.php");
 
 ?>
