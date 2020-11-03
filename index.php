@@ -9,7 +9,12 @@
 <body>
     <div class="container">
         <div class="item a">
-            <h1>Wojtek Kaźmierczak gr 2</h1>
+            <div class="title">
+                <h1>Wojtek Kaźmierczak gr 2</h1>
+            </div>
+            <div class="tables">
+                <a href="tables.html">Tabele</a>
+            </div>
         </div>
         <div class="item b">
             <div class="insert">

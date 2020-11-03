@@ -18,6 +18,29 @@
 .a{
     grid-area: a;
     background-color: darkseagreen;
+    display: flex;
+}
+
+.title{
+    height: 100%;
+    width: 50%;
+}
+
+.tables{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 14px;
+    background-color: greenyellow;
+    border-radius: 10px;
 }
 
 .b{
