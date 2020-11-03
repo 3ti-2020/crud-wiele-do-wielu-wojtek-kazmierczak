@@ -3,8 +3,8 @@
      $autor = $_POST['name'];
      $tytul = $_POST['tytul'];
 
-     $sql1 = "INSERT INTO lib_autor VALUES (NULL, $autor)"; 
-     $sql2 = "INSERT INTO lib_tytul VALUES (NULL, $tytul)";
+     $sql1 = "INSERT INTO lib_autor VALUES (NULL, '$autor')"; 
+     $sql2 = "INSERT INTO lib_tytul VALUES (NULL, '$tytul')";
      
      
      $result1 = mysqli_query($conn, $sql1);
