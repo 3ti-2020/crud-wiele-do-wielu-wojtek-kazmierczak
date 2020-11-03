@@ -8,7 +8,7 @@
      $sql2 = "INSERT INTO lib_tytul VALUES (NULL, $tytul)";
          $last_idlib_tytul = $conn->insert_id;     
    
-     $sql3 = "INSERT INTO krzyzowej VALUES (NULL, $last_idlib_tytul,$last_idlib_autor)";
+     $sql3 = "INSERT INTO lib_autor_tytul VALUES (NULL, $last_idlib_tytul,$last_idlib_autor)";
 
      $result = mysqli_query($conn, $sql);
      header("Location: index.php");
