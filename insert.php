@@ -5,7 +5,6 @@
        die("Connection failed: " . $conn->connect_error);
      }
 
-
      $sql1 = "INSERT INTO lib_autor VALUES (NULL, '".$_POST['name']."')"; 
 
      if ($conn->query($sql1) === TRUE) {
@@ -14,7 +13,6 @@
      } else {
      echo "Error: " . $sql1 . "<br>" . $conn->error;
      }
-
 
      $sql2 = "INSERT INTO lib_tytul VALUES (NULL, '".$_POST['tytul']."')";
 
