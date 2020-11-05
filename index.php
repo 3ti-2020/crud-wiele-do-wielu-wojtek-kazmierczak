@@ -13,7 +13,8 @@
                 <h1>Wojtek Kaźmierczak gr 2</h1>
             </div>
             <div class="tables">
-                <a href="tables.html">Tabele</a>
+                <a class="btnTabele" href="tables.html">Tabele</a>
+                <a class="btnGithub" href="https://github.com/3ti-2020/crud-wiele-do-wielu-wojtek-kazmierczak">GitHub</a>
             </div>
         </div>
         <div class="item b">
@@ -26,6 +27,9 @@
             </div>
 
         </div>
+
+            
+
         <div class="item c">
             <?php
                 require_once("connect.php");
@@ -38,6 +42,7 @@
                 echo("
                 <th>Nazwisko</th>
                 <th>Tytuł</th>
+                <th>Usuń</th>
                 ");
                 while($row=mysqli_fetch_assoc($result)){
                     echo("<tr>");
@@ -46,6 +51,13 @@
                     echo("</td>");
                     echo("<td>");
                     echo($row['tytul']);
+                    echo("</td>");
+                    echo("<td>");
+                    echo('
+                    <form action="delete.php" method="post">
+                    <input type="text" style="display: none" value="'.$row["id_autor_tytul"].'" name="id_del" id="">
+                    <input type="button" value="X">
+                    </form>');
                     echo("</td>");
                     echo("</tr>");
                 }

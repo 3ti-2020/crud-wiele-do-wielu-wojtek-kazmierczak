@@ -26,6 +26,16 @@
     width: 50%;
 }
 
+.btnGithub{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 14px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 15px;
+    color: wheat;
+}
+
 .tables{
     height: 100%;
     width: 50%;
@@ -35,12 +45,13 @@
     margin-right: 5%;
 }
 
-a{
+.btnTabele{
     text-decoration: none;
     border: 1px solid black;
     padding: 14px;
-    background-color: greenyellow;
+    background-color: gray;
     border-radius: 10px;
+    color: wheat;
 }
 
 .b{
