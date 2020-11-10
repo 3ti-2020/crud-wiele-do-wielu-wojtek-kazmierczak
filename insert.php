@@ -25,6 +25,5 @@
      
      $sql3 = "INSERT INTO lib_autor_tytul VALUES (NULL, $last_idlib_autor,$last_idlib_tytul)";
      $result3 = mysqli_query($conn, $sql3);
-     header("Location: index.php");
-
+     header("Location:index-admin.php");
 ?>
