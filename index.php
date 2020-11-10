@@ -11,10 +11,10 @@
         <div class="item a">
             <div class="title">
                 <h1>Wojtek Kaźmierczak gr 2</h1>
+            </div>
             <div class="tables">
                 <a class="btnTabele" href="tables.html">Tabele</a>
                 <a class="btnGithub" href="https://github.com/3ti-2020/crud-wiele-do-wielu-wojtek-kazmierczak">GitHub</a>
-            </div>
             </div>
         </div>
         <div class="item b">
