@@ -15,6 +15,10 @@
     "d d";
 }
 
+a{
+    text-decoration: none;
+}
+
 .a{
     grid-area: a;
     background-color: darkseagreen;
@@ -67,6 +71,9 @@
 .c{
     grid-area: c;
     background-color: cornflowerblue;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .d{
@@ -104,8 +111,24 @@
     padding: 5px;
 }
 
+.dolLinki{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wypozyczenia{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 139, 63);
+    color: black;
+}
+
 .logon{
-    width: 100%;
+    height: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,4 +158,20 @@ table{
 tr, td, th{
     border: 1px solid black;
     padding: 3px;
+}
+
+.listaKsiazek{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.listaWypozyczen{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

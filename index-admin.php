@@ -69,6 +69,9 @@
                     <input class="wyloguj" type="submit" value="wyloguj">
                 </form>
             </div>
+            <div class="dolLinki">
+                <a href="wypozyczenia.php" class="wypozyczenia">Wypożyczenia</a>
+            </div>
         </div>
     </div>
 </body>
