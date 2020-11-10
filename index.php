@@ -25,7 +25,6 @@
                     <input type="submit" value="Dodaj">
                 </form>
             </div>
-
         </div>
 
             
@@ -56,7 +55,7 @@
                     echo('
                     <form action="delete.php" method="post">
                     <input type="text" style="display: none" value="'.$row["id_autor_tytul"].'" name="id_del" id="">
-                    <input type="button" value="X">
+                    <input type="submit" value="X">
                     </form>');
                     echo("</td>");
                     echo("</tr>");
