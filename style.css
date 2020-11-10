@@ -72,6 +72,49 @@
 .d{
     grid-area: d;
     background-color: springgreen;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.d1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.d2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passy{
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.logon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wyloguj{
+    background-color: darkkhaki;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .tekst{
