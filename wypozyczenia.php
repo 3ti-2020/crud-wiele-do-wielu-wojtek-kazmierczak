@@ -22,8 +22,8 @@
                 <form action="wypozycz.php" method="post">
                     ID książki:
                     <input type="text" name="id" id=""><br>
-                    Do kiedy chcesz wypożyczyć:
-                    <input type="date" name="data" id="">
+                    Podaj date oddania:
+                    <input type="date" name="dataOddania" id="">
                     <input type="submit" value="Wypożycz">
                 </form>
             </div>
@@ -33,6 +33,7 @@
 
         <div class="item c">
         <div class="listaWypozyczen">
+        <h1>Lista wypożyczeń</h1>
             <?php
                 require_once("connect.php");
                 $sql = "SELECT * FROM lib_autor, lib_autor_tytul, lib_tytul, lib_wypozyczenia 
@@ -68,6 +69,7 @@
             ?>
         </div>
         <div class="listaKsiazek">
+        <h1>Lista książek</h1>
         <?php
                 require_once("connect.php");
                 $sql = "SELECT * FROM lib_autor, lib_autor_tytul, lib_tytul WHERE 
