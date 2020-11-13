@@ -47,7 +47,8 @@
                 <th>Nazwisko</th>
                 <th>Tytuł</th>
                 <th>Data wypożyczenia</th>
-                <th>Data oddania</th>
+                <th>Termin oddania</th>
+                <th>Oddane wcześniej</th>
                 ");
                 while($row=mysqli_fetch_assoc($result)){
                     echo("<tr>");
@@ -62,6 +63,13 @@
                     echo("</td>");
                     echo("<td>");
                     echo($row['data_oddania']);
+                    echo("</td>");
+                    echo("<td>");
+                    echo('
+                    <form action="deleteWypozycz.php" method="post">
+                    <input type="text" style="display: none" value="'.$row["id_wypozyczenia"].'" name="id_del" id="">
+                    <input type="submit" value="Oddane przed terminem">
+                    </form>');
                     echo("</td>");
                     echo("</tr>");
                 }
